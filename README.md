@@ -3,16 +3,16 @@ End-to-end implementation of Kidney tumor classification using mlflow and with C
 
 ## Workflow
 
-1. Update config.yaml
+1. Update config.yaml file 
 2. Update secrets.yaml [Optional]
-3. Update params.yaml
+3. Update params.yaml file
 4. Update the entity
-5. Update the configuration manager in src config
-6. Update the components
-7. Update the pipeline 
-8. Update the main.py
-9. Update the dvc.yaml
-10. app.py
+5. Update the configuration manager in src > config
+6. Update components
+7. Update pipeline 
+8. Update main.py
+9. Update dvc.yaml
+10. Update app.py
 
 # How to run?
 ### STEP 00 - Clone the repository:
