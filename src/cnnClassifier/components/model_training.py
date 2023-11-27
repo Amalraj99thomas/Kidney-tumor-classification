@@ -18,11 +18,13 @@ class Training:
 
     def train_valid_generator(self):
 
+        #For Data Normalization
         datagenerator_kwargs = dict(
             rescale = 1./255,
             validation_split=0.20
         )
 
+        #For Dataflow
         dataflow_kwargs = dict(
             target_size=self.config.params_image_size[:-1],
             batch_size=self.config.params_batch_size,
