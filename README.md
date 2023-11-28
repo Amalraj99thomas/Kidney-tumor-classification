@@ -106,8 +106,7 @@ DVC
  - It can perform Orchestration (Creating Pipelines) -->
 
 
-
-## AWS-CICD-Deployment-with-Github-Actions
+## AWS-CICD-Deployment-using-Github-Actions
 
 ### 1. Login to AWS console.
 
@@ -140,7 +139,7 @@ DVC
 
 	
 ### 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s
 
 	
 ### 4. Create EC2 machine (Ubuntu) 
