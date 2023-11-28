@@ -124,6 +124,8 @@ def get_size(path: Path) -> str:
     return f"~ {size_in_kb} KB"
 
 
+# to convert image to base64 and vice versa
+
 def decodeImage(imgstring, fileName):
     imgdata = base64.b64decode(imgstring)
     with open(fileName, 'wb') as f:
